@@ -6,7 +6,8 @@
 
 ```
 npm i
-node app.js
+npm run build
+npm start
 ```
 
 访问： http://localhost:3000/api
@@ -15,5 +16,6 @@ node app.js
 
 ## 历史
 
+- v0.2.1 针对 v0.2.0，改为 typescript
 - v0.2.0 使用本地 yaml 文件，对 koa 中的/health 提供 swagger 界面操作
 - v0.1.0 使用本地 json 文件(petstore)
